@@ -23,7 +23,9 @@ class Dog
   
   def Dog.print_all
     @@all.each do |name| 
-       puts name 
+       if name == @name 
+         puts @name 
+       end 
     end 
   end 
    
