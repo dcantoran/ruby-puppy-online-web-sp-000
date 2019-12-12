@@ -24,8 +24,8 @@ class Dog
   def Dog.print_all
     @@all.each do |dog| 
       puts dog.name
-      binding.pry
     end 
+      binding.pry
   end 
    
 end
