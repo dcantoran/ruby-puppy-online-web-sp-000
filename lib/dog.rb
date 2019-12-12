@@ -9,6 +9,10 @@ class Dog
     save
   end 
   
+  def save 
+    @@all << self 
+  end 
+  
   def Dog.all 
     @@all 
   end 
@@ -22,10 +26,6 @@ class Dog
        
       # binding.pry
     end 
-  end 
-  
-  def save 
-    @@all << self 
   end 
    
 end
